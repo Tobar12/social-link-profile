@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 24px;
+    background-color: #1F1F1F;
+    width: 22%;
+    min-width: 327px;
+    border-radius: 12px;
+    padding: 40px;
+}
+.conteudo__image {
+    border-radius: 999px;
+    width: 29%;
+}
+.conteudo__name {
+    text-align: center;
+    color: white;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.conteudo__location {
+    text-align: center;
+    color: #C4F82A;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.conteudo__description {
+    color: white;
+    font-family: "Inter", serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.conteudo__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+.conteudo__buttons__buttons {
+    width: 100%;
+    padding: 13px 0px;
+    border-radius: 8px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.conteudo__buttons__buttons:hover {
+    background-color: #C4F82A;
+    color: black;
+}
